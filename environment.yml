@@ -5,18 +5,18 @@ channels:
 dependencies:
   - python=3.10
   - numpy=1.26.4
+  - pandas
+  - scikit-learn
+  - joblib
+  - plotly
+  - pydicom
+  - SimpleITK
   - pip
   - pip:
       - streamlit
-      - pandas
-      - pydicom
       - opencv-python-headless
       - torch
       - torchvision
-      - joblib
-      - SimpleITK
       - pyradiomics
-      - plotly
-      - scikit-learn
       - xgboost
       - lightgbm
