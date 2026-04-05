@@ -15,12 +15,13 @@ dependencies:
   - xgboost=1.5.1
   - lightgbm=3.2.1
   - pyradiomics=3.1.0a2
+  - pydicom=2.4.4
   - pip=22.3.1
   - pip:
-    - numpy==1.21.6
-    - pydicom==2.4.4
-    - opencv-python==4.12.0.88
-    - torch==1.13.1
-    - torchvision==0.14.1
-    - 
+     #- numpy==1.21.6
+    - opencv-python
+    - --extra-index-url https://download.pytorch.org/whl/cpu
+    - torch==1.13.1+cpu
+    - torchvision==0.14.1+cpu
+    - torchaudio==0.13.1
     - streamlit==1.23.1
