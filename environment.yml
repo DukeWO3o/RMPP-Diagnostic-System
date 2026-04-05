@@ -11,10 +11,10 @@ dependencies:
   - plotly
   - pydicom
   - SimpleITK
+  - opencv
   - pip
   - pip:
       - streamlit
-      - opencv-python-headless
       - torch
       - torchvision
       - pyradiomics
