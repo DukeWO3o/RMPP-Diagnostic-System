@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+pydicom
+opencv-python-headless
+torch
+torchvision
+joblib
+SimpleITK
+pyradiomics
+plotly
+scikit-learn
+xgboost
+lightgbm
