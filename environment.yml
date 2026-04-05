@@ -1,6 +1,7 @@
 name: rmpp-app
 channels:
   - pytorch
+  - radiomics
   - conda-forge
   - defaults
 dependencies:
@@ -16,9 +17,9 @@ dependencies:
   - pytorch
   - torchvision
   - cpuonly
+  - pyradiomics
+  - xgboost
+  - lightgbm
   - pip
   - pip:
       - streamlit
-      - pyradiomics
-      - xgboost
-      - lightgbm
