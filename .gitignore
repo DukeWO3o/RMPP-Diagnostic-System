@@ -1,0 +1,6 @@
+.idea/
+__pycache__/
+*.pyc
+.streamlit/
+# 只忽略仓库根目录散落的真实患者 DCM；demo/ 内脱敏示例需保留
+/*.dcm
